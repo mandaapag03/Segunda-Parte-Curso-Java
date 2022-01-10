@@ -25,8 +25,8 @@ public class DesafioArray {
         }
         //calcula média
         double soma = 0;
-        for(double notasDoAluno: notas){
-            soma += notasDoAluno;
+        for(double notaDoAluno: notas){
+            soma += notaDoAluno;
         }
         System.out.printf("Média: %.2f", soma/notas.length);
 
