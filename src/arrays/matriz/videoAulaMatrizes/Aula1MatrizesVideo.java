@@ -1,4 +1,4 @@
-package arrays.matriz.videos;
+package arrays.matriz.videoAulaMatrizes;
 
 public class Aula1MatrizesVideo {
     public static void main(String[] args) {
