@@ -1,5 +1,6 @@
-package arrays.matriz;
+package matriz;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Matrizes {
@@ -27,7 +28,11 @@ public class Matrizes {
             }
         }
         double media = total / (quantAlunos * quantNotasPorAluno);
-        System.out.printf("Média da turma: %.2f", media);
+        System.out.printf("Média da turma: %.2f\n", media);
+
+        for (double[] notasDosAlunos : notasDaTurma) {
+            System.out.println(Arrays.toString(notasDosAlunos));
+        }
 
         scanner.close();
     }

@@ -7,10 +7,13 @@ public class Exercicios {
         //datatype VariableName [] = new datatype [size];
         double notasDoAlunoA [] = new double[4];
 
+        //Forma 1 de declarar um array
         notasDoAlunoA[0] = 7.9;
         notasDoAlunoA[1] = 5.7;
         notasDoAlunoA[2] = 8;
         notasDoAlunoA[3] = 7.5;
+        
+        //Imprimindo array
         String notas = Arrays.toString(notasDoAlunoA);
         System.out.println(notas);
 
@@ -21,8 +24,10 @@ public class Exercicios {
         }
         System.out.println("Média = " + totalAlunoA / notasDoAlunoA.length);
 //--------------------------------------------------------------------
+       // Forma 2 de declarar um array
         double notasDoAlunoB [] ={6.7, 5.9, 9.8, 10}; 
         
+        //output do array
         System.out.println(Arrays.toString(notasDoAlunoB));
 
         double somaNotasAlunoB = 0;
