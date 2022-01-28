@@ -32,6 +32,11 @@ public class outputMatriz {
                 System.out.printf("%2s ", names[i][j]);
             }
         }
+        System.out.println();
+
+        for(String [] nome:names){
+            System.out.println(Arrays.toString(nome));
+        }
 
     }
 }
