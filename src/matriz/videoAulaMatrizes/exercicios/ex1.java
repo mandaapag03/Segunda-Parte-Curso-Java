@@ -2,7 +2,7 @@ package matriz.videoAulaMatrizes.exercicios;
 
 import java.util.Random;
 
-public class ex1 {
+public class ex1 { //EU CONSEGUIIIIIIIIII!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     public static void main(String[] args) {
 
         int[][][][] M = new int[4][4][4][4];
