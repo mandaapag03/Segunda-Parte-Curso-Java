@@ -11,7 +11,7 @@ public class Aula3Matrizes3D {
                 for(int k = 0; k < matrizTridimensional[i][j].length; k ++){
                     matrizTridimensional[i][j][k] = i + j + k;
                     System.out.printf("i = %d\nj = %d\nk = %d\n", i, j, k);
-                    //System.out.printf("%3d", matrizTridimensional[i][j][k]);
+                   /*  System.out.printf("%3d", matrizTridimensional[i][j][k]); */
                 }
                 System.out.println();
             }

@@ -1,5 +1,7 @@
 package matriz.videoAulaMatrizes.exercicios;
 
+import java.util.Arrays;
+/* import java.util.Arrays; */
 import java.util.Scanner;
 
 public class ex3 {
@@ -9,21 +11,25 @@ public class ex3 {
         System.out.println("Informe os valores inteiros: ");
         int[][] matriz = new int[3][3];
 
+        int a = 0;
+        int b = 0;
+        int valores = 0;
         int pares = 0;
         int impares = 0;
-        for (int a = 0; a < matriz.length; a++) {
-            for (int b = 0; b < matriz[a].length; b++) {
+        for (a = 0; a < matriz.length; a++) {
+            for (b = 0; b < matriz[a].length; b++) {
                 System.out.printf("Coluna %d - Linha %d = ", a + 1, b + 1);
-                int valores = sc.nextInt();
-                valores = matriz[a][b];
-                if (valores % 2 == 0) {
-                    pares++;
-                } else {
-                    impares++;
+                valores = sc.nextInt();
+                matriz[a][b] = valores;
+                if(matriz[a][b] %2 == 0){
+                    pares ++;
+                }else{
+                    impares ++;
                 }
             }
             System.out.println();
         }
+        System.out.println(Arrays.deepToString(matriz));
         System.out.printf("Há %d pares e %d ímpares", pares, impares);
         sc.close();
     }
