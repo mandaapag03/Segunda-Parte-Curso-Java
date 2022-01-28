@@ -13,13 +13,6 @@ public class outputMatriz {
 
         System.out.println();
 
-        for (int i = 0; i < names.length; i++) {
-            for (int j = 0; j < names[i].length; j++) {
-                System.out.println(names[i][j] + " ");
-            }
-        }
-        System.out.println();
-
         for(int i = 0; i < names.length; i ++ ){
             for(int j = 0; j < names[i].length; j++ ){
                 System.out.print(names[i][j] + " ");
@@ -33,8 +26,9 @@ public class outputMatriz {
                 System.out.printf("%2s ", names[i][j]);
             }
         }
-        System.out.println();
 
+        System.out.println();
+        System.out.println();
         for(String [] nome:names){
             System.out.println(Arrays.toString(nome));
         }
