@@ -12,11 +12,16 @@ public class ex2 {
         int maiorLinha = 0;
         int menorLinha = 9;
 
-        for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length; j++) {
+        for(int i = 0; i < matriz.length; i++){
+            for(int j = 0; j < matriz[i].length; j++){
                 Random r = new Random();
                 int num = r.nextInt(10);
                 matriz[i][j] = num;
+            }
+        }
+
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
                 if(matriz[7][j] > maiorColuna){
                     maiorColuna = matriz[7][j];
                 }
