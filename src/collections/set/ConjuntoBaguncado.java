@@ -1,4 +1,4 @@
-package collections;
+package collections.set;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,6 +6,8 @@ import java.util.Set;
 public class ConjuntoBaguncado {
     @SuppressWarnings({"rawtypes","unchecked"})
     public static void main(String[] args) {
+        
+        // Criar uma coleção:
         HashSet name = new HashSet();
 
         //Adicionar elementos na collection:
