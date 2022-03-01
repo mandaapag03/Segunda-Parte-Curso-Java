@@ -8,9 +8,10 @@ public class User {
         this.nome = nome;
     }
 
+    // Quando um obj tipo User for impresso, será neste modelo
     @Override
     public String toString() {
-        return "Nome: " + nome;
+        return "Bom dia " + nome;
     }
 
     @Override

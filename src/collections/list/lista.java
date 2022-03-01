@@ -10,10 +10,13 @@ public class lista {
         // Instanciar objeto da lista
         User u1 = new User("Gustavo");
         list.add(u1);
+        User u2 = new User("Paulo");
+        list.add(u2);
         list.add(new User("Amanda"));
         list.add(new User("Gabriela"));
         list.add(new User("Larissa"));
         list.add(new User("Júlio"));
+        list.add(new User("Caio"));
 
         for(User u : list){
             System.out.println(u.nome);
