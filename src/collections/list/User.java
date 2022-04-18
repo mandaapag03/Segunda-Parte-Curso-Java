@@ -1,4 +1,4 @@
-package collections.list;
+package src.collections.list;
 
 public class User {
     
@@ -34,8 +34,9 @@ public class User {
         if (nome == null) {
             if (other.nome != null)
                 return false;
-        } else if (!nome.equals(other.nome))
+        } else if (!nome.equals(other.nome)) {
             return false;
+        }
         return true;
     }
 

@@ -1,4 +1,4 @@
-package collections.stack;
+package src.collections.stack;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
