@@ -1,4 +1,4 @@
-package src.collections.list;
+package collections.list;
 
 public class User {
     

@@ -1,4 +1,4 @@
-package src.Interfaces;
+package Interfaces;
 
 public class Gato implements Mamiferos{
 
