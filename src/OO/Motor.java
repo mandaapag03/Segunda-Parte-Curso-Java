@@ -1,4 +1,4 @@
-package OO;
+package src.OO;
 
 public class Motor {
     double fatorDeInjecao = 1;
